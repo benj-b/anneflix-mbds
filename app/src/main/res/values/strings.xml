@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_home_second">Hello HomeSecondFragment. Arg: %1$s</string>
+    <string name="hello_dashboard_second">Hello DashboardSecondFragment. Arg: %1$s</string>
+    <string name="hello_notifications_second">Hello NotificationsSecondFragment. Arg: %1$s</string>
+    <string name="title_home">Catégories</string>
+    <string name="title_dashboard">Tendances</string>
+    <string name="title_notifications">A propos</string>
+    <string name="title_details">Details</string>
+
+    <string name="selected_category">Films par genre</string>
+    <string name="fonctionnality_list">Fonctionnalités de l\'application :
+                \n\t- Liste des catégories
+                \n\t- Liste des films pas catégories
+                \n\t- Recherche de films
+                \n\t- Vue détails
+                \n\t- Data persistence
+                \n\t- Vidéo YouTube (trailer)
+                \n\t- …</string>
+
+    <string name="member_list">Profils LinkedIn des membres du groupe :
+                \n\t- Yahya AARJI: https://fr.linkedin.com/in/yahya-aarji-928381237
+                \n\t- Ayoub ADMESSIEV: https://fr.linkedin.com/in/ayoub-admessiev
+                \n\t- Maxime BELLET: https://fr.linkedin.com/in/maxime-bellet-774b45251
+                \n\t- Benjamin BERNAUD: https://fr.linkedin.com/in/benjamin-bernaud</string>
+
+    <string name="library_list">Liste des bibliothèques utilisées :
+                \n\t- Linkify
+                \n\t- Retrofit
+                \n\t- Glide
+                \n\t- Hilt
+                \n\t- Room
+                \n\t- android-youtube-player
+                \n\t- …</string>
+    <string name="title_apropos">À propos de l\'application</string>
+    <string name="films_populaires">Films Populaires</string>
+    <string name="movie_banner">Movie banner</string>
+    <string name="poster_image">Poster image</string>
+    <string name="details">Details</string>
+    <string name="title_search">Recherche</string>
+    <string name="rechercher_des_films">Rechercher des films…</string>
+
+</resources>

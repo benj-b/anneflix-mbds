@@ -1,0 +1,50 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="movie"
+            type="com.gmail.eamosse.idbdata.data.Movie" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:clickable="true"
+        android:focusable="true">
+
+        <!-- Poster du film -->
+        <ImageView
+            android:id="@+id/imageViewPoster"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            app:imageUrl="@{movie.posterPath}"
+            android:contentDescription="@string/poster_image" />
+
+        <!-- Nom du film -->
+        <TextView
+            android:id="@+id/textViewMovieName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageViewPoster"
+            android:layout_marginStart="16dp"
+            android:text="@{movie.title}"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Résumé du film -->
+        <TextView
+            android:id="@+id/textViewMovieOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewMovieName"
+            android:layout_toEndOf="@id/imageViewPoster"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@{movie.overview}"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+</layout>
